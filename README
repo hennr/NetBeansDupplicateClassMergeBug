@@ -20,7 +20,8 @@ git mergetool
 // rm the *.orig files afterwards
 rm src/main/java/name/hennr/netbeansdupplicateclassmergebug/*.orig
 
-NetBeans should now have trouble with the class Foo
+NetBeans should now have trouble with the class Bar or Foo
+depending on which version you accepted (ours, theirs or one and one).
 
 "duplicate class: name.hennr.netbeansdupplicateclassmergebug.Foo"
 
