@@ -11,6 +11,8 @@ cd NetBeansDupplicateClassMergeBug
 
 open the project in NetBeans
 
+git checkout conflict
+git checkout master
 git merge conflict
 git mergetool
 // will open meld for example, accept changes as you like for both files, should make no difference
