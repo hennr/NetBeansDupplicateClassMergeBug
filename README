@@ -1,3 +1,25 @@
 This is a project to help the NetBeans devs reproducing the following bug:
 
 http://netbeans.org/bugzilla/show_bug.cgi?id=197983
+
+== Reproduce ==
+
+To reproduce, do the following:
+
+git clone https://github.com/hennr/NetBeansDupplicateClassMergeBug.git
+cd NetBeansDupplicateClassMergeBug
+
+open the project in NetBeans
+
+git merge conflicts
+git mergetool
+// will open meld for example, accept changes as you like for both files, should make no difference
+
+// rm the *.orig files afterwards
+rm src/main/java/*.orig
+
+NetBeans should now have trouble with the class Foo
+
+"duplicate class: name.hennr.netbeansdupplicateclassmergebug.Foo"
+
+
