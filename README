@@ -16,7 +16,7 @@ git mergetool
 // will open meld for example, accept changes as you like for both files, should make no difference
 
 // rm the *.orig files afterwards
-rm src/main/java/*.orig
+rm src/main/java/name/hennr/netbeansdupplicateclassmergebug/*.orig
 
 NetBeans should now have trouble with the class Foo
 
