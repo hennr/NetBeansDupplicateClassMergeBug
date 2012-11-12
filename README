@@ -2,6 +2,8 @@ This is a project to help the NetBeans devs reproducing the following bug:
 
 http://netbeans.org/bugzilla/show_bug.cgi?id=197983
 
+Update: The bug is closed now, this project will stay here for possible regressions and historical reasons.
+
 == Reproduce ==
 
 To reproduce, do the following:
